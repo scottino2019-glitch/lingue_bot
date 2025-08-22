@@ -2,7 +2,7 @@ import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = os.environ.get("7269524372:AAFv99GU8TIKCuhSCA_ph6An3NdsvYDG8ok")  # prende il token da Heroku
+TOKEN = os.environ.get("7269524372:AAG5im_qPsx2vetXav_J0xH8sUKtdWTbe44")  # prende il token da Heroku
 
 # Lingue con emoji
 LANGUAGES = {
@@ -91,4 +91,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
