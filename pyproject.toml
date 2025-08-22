@@ -1,0 +1,8 @@
+[tool.poetry]
+name = "lingue_bot"
+version = "0.1.0"
+authors = ["Silvia Greco <scottino2019@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "20.3"
